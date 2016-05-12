@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JanelaListaAlimentos</class>
+ <widget class="QWidget" name="JanelaListaAlimentos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>915</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="listaAlimentos">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>281</width>
+     <height>411</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tbPropriedades">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>100</y>
+     <width>291</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="columnCount">
+    <number>1</number>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>Calorias</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Proteinas</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Ferro</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Calcio</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Fibra</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Colesterol</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Acido Folico</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Gorduras Totais</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Gordura Saturada</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Gordura Monoinsaturada</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Gordura Polinsaturada</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina A</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina C</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina D</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina E</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina K</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina B1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina B2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina B6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Vitamina B12</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Fluor</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Fosforo</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Iodo</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Magnesio</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Potassio</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Selenio</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Sodio</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Zinco</string>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>false</kerning>
+     </font>
+    </property>
+   </row>
+   <column/>
+  </widget>
+  <widget class="QLabel" name="lblImagem">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>30</y>
+     <width>260</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="text">
+    <string>Imagem</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtCarregarFoto">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>260</y>
+     <width>235</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="btCarregarFoto">
+   <property name="geometry">
+    <rect>
+     <x>865</x>
+     <y>260</y>
+     <width>26</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>210</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Programa/src/Imagens/carregar_foto.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>290</y>
+     <width>301</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Programa/src/Imagens/bananas.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="btSalvar">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>480</y>
+     <width>101</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Save</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtNome">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>60</y>
+     <width>291</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>0</y>
+     <width>251</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Programa/src/Imagens/nome_alimento.png</pixmap>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>20</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btModificar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modificar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btRemover">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>480</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remover</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Caso queira adicionar um novo alimento a lista, adicione o alimento logo ao lado &gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>btCarregarFoto</zorder>
+  <zorder>btSalvar</zorder>
+  <zorder>line</zorder>
+  <zorder>btModificar</zorder>
+  <zorder>label_2</zorder>
+  <zorder>listaAlimentos</zorder>
+  <zorder>txtNome</zorder>
+  <zorder>label_5</zorder>
+  <zorder>tbPropriedades</zorder>
+  <zorder>btRemover</zorder>
+  <zorder>label_3</zorder>
+  <zorder>lblImagem</zorder>
+  <zorder>txtCarregarFoto</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btSalvar</sender>
+   <signal>clicked(QAbstractButton*)</signal>
+   <receiver>JanelaListaAlimentos</receiver>
+   <slot>salvar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>878</x>
+     <y>495</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>888</x>
+     <y>218</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btModificar</sender>
+   <signal>clicked()</signal>
+   <receiver>JanelaListaAlimentos</receiver>
+   <slot>modificar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>604</x>
+     <y>17</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btRemover</sender>
+   <signal>clicked()</signal>
+   <receiver>JanelaListaAlimentos</receiver>
+   <slot>remover()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>237</x>
+     <y>493</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>588</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>salvar()</slot>
+  <slot>modificar()</slot>
+  <slot>remover()</slot>
+ </slots>
+</ui>

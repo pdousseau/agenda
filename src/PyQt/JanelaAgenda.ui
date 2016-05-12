@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JanelaAgenda</class>
+ <widget class="QWidget" name="JanelaAgenda">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>912</width>
+    <height>515</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTableWidget" name="tbAgenda">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>711</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget{
+border:9px;
+background-color: rgb(234, 255, 213);
+gridline-color: rgb(165, 202, 130);
+
+}</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="selectionBehavior">
+    <enum>QAbstractItemView::SelectRows</enum>
+   </property>
+   <property name="rowCount">
+    <number>16</number>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>as</string>
+    </property>
+   </row>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>Data</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Calorias</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Comentarios</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btAdicionar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>92</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adicionar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btModificar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>92</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modificar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btRemover">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>92</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remover</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btAdicionar</sender>
+   <signal>clicked()</signal>
+   <receiver>JanelaAgenda</receiver>
+   <slot>adicionar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>48</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>96</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btRemover</sender>
+   <signal>clicked()</signal>
+   <receiver>JanelaAgenda</receiver>
+   <slot>remover()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>83</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btModificar</sender>
+   <signal>clicked()</signal>
+   <receiver>JanelaAgenda</receiver>
+   <slot>modificar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>25</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>adicionar()</slot>
+  <slot>modificar()</slot>
+  <slot>remover()</slot>
+ </slots>
+</ui>
