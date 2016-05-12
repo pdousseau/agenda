@@ -1,0 +1,118 @@
+ccopy_reg
+_reconstructor
+p0
+(cAlimento
+Alimento
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'propriedades'
+p6
+(dp7
+S'Fibra'
+p8
+F30.0
+sS'Potassio'
+p9
+F0.0
+sS'Gorduras Totais'
+p10
+F0.0
+sS'Gordura Polinsaturada'
+p11
+F0.0
+sS'Zinco'
+p12
+F0.0
+sS'Fluor'
+p13
+F0.0
+sS'Calcio'
+p14
+F3201.0
+sS'Vitamina K'
+p15
+F0.0
+sS'Vitamina E'
+p16
+F0.0
+sS'Vitamina D'
+p17
+F0.0
+sS'Sodio'
+p18
+F0.0
+sS'Vitamina A'
+p19
+F0.0
+sS'Vitamina C'
+p20
+F0.0
+sS'Iodo'
+p21
+F0.0
+sS'Ferro'
+p22
+F490.0
+sS'Acido Folico'
+p23
+F23.0
+sS'Colesterol'
+p24
+F222.0
+sS'Calorias'
+p25
+F33.0
+sS'Vitamina B6'
+p26
+F0.0
+sS'Vitamina B1'
+p27
+F0.0
+sS'Vitamina B2'
+p28
+F0.0
+sS'Magnesio'
+p29
+F0.0
+sS'Fosforo'
+p30
+F0.0
+sS'Gordura Saturada'
+p31
+F0.0
+sS'Gordura Monoinsaturada'
+p32
+F0.0
+sS'Vitamina B12'
+p33
+F0.0
+sS'Proteinas'
+p34
+F230.0
+sS'Selenio'
+p35
+F0.0
+ssS'imagem'
+p36
+S'/home/patricia/workspace/Agenda/src/Imagens/x.png'
+p37
+sS'nome'
+p38
+csip
+_unpickle_type
+p39
+(S'PyQt4.QtCore'
+p40
+S'QString'
+p41
+(VManga
+p42
+tp43
+tp44
+Rp45
+sb.
