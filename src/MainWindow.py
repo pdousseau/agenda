@@ -4,16 +4,10 @@ from JanelaConfiguracoes import *
 from JanelaAdicionar import *
 from JanelaListaAlimentos import *
 import sys,os
-
-
-        
-
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from Janelas.Ui_MainWindow import *
 class MainWindow (QMainWindow, Ui_MainWindow):
-    
- 
     
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
