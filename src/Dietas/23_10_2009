@@ -1,0 +1,381 @@
+ccopy_reg
+_reconstructor
+p0
+(cDieta
+Dieta
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'calorias'
+p6
+F1076.0
+sS'listaAlimentos'
+p7
+(lp8
+g0
+(cAlimento
+Alimento
+p9
+g2
+Ntp10
+Rp11
+(dp12
+S'propriedades'
+p13
+(dp14
+S'Fibra'
+p15
+F662.0
+sS'Potassio'
+p16
+F0.0
+sS'Gorduras Totais'
+p17
+F0.0
+sS'Gordura Polinsaturada'
+p18
+F0.0
+sS'Zinco'
+p19
+F0.0
+sS'Fluor'
+p20
+F0.0
+sS'Calcio'
+p21
+F349.0
+sS'Vitamina K'
+p22
+F0.0
+sS'Vitamina E'
+p23
+F0.0
+sS'Vitamina D'
+p24
+F0.0
+sS'Sodio'
+p25
+F0.0
+sS'Vitamina A'
+p26
+F0.0
+sS'Vitamina C'
+p27
+F0.0
+sS'Iodo'
+p28
+F0.0
+sS'Ferro'
+p29
+F123.0
+sS'Calorias'
+p30
+F99.0
+sS'Colesterol'
+p31
+F19.0
+sS'Acido Folico'
+p32
+F99.0
+sS'Vitamina B6'
+p33
+F0.0
+sS'Vitamina B1'
+p34
+F0.0
+sS'Vitamina B2'
+p35
+F0.0
+sS'Magnesio'
+p36
+F0.0
+sS'Fosforo'
+p37
+F0.0
+sS'Gordura Saturada'
+p38
+F0.0
+sS'Gordura Monoinsaturada'
+p39
+F0.0
+sS'Vitamina B12'
+p40
+F0.0
+sS'Proteinas'
+p41
+F349.0
+sS'Selenio'
+p42
+F0.0
+ssS'imagem'
+p43
+S'/home/patricia/workspace/Agenda/src/Imagens/x.png'
+p44
+sS'nome'
+p45
+csip
+_unpickle_type
+p46
+(S'PyQt4.QtCore'
+p47
+S'QString'
+p48
+(VGoiaba
+p49
+tp50
+tp51
+Rp52
+sbag0
+(g9
+g2
+Ntp53
+Rp54
+(dp55
+S'propriedades'
+p56
+(dp57
+S'Fibra'
+p58
+F122.0
+sS'Potassio'
+p59
+F0.0
+sS'Gorduras Totais'
+p60
+F0.0
+sS'Gordura Polinsaturada'
+p61
+F0.0
+sS'Zinco'
+p62
+F0.0
+sS'Fluor'
+p63
+F0.0
+sS'Calcio'
+p64
+F431.0
+sS'Vitamina K'
+p65
+F0.0
+sS'Vitamina E'
+p66
+F0.0
+sS'Vitamina D'
+p67
+F0.0
+sS'Sodio'
+p68
+F0.0
+sS'Vitamina A'
+p69
+F0.0
+sS'Vitamina C'
+p70
+F0.0
+sS'Iodo'
+p71
+F0.0
+sS'Ferro'
+p72
+F812.0
+sS'Calorias'
+p73
+F944.0
+sS'Colesterol'
+p74
+F23.0
+sS'Acido Folico'
+p75
+F111.0
+sS'Vitamina B6'
+p76
+F0.0
+sS'Vitamina B1'
+p77
+F0.0
+sS'Vitamina B2'
+p78
+F0.0
+sS'Magnesio'
+p79
+F0.0
+sS'Fosforo'
+p80
+F0.0
+sS'Gordura Saturada'
+p81
+F0.0
+sS'Gordura Monoinsaturada'
+p82
+F0.0
+sS'Vitamina B12'
+p83
+F0.0
+sS'Proteinas'
+p84
+F349.0
+sS'Selenio'
+p85
+F0.0
+ssS'imagem'
+p86
+S'/home/patricia/workspace/Agenda/src/Imagens/x.png'
+p87
+sS'nome'
+p88
+g46
+(g47
+S'QString'
+p89
+(VFeijao
+p90
+tp91
+tp92
+Rp93
+sbag0
+(g9
+g2
+Ntp94
+Rp95
+(dp96
+S'propriedades'
+p97
+(dp98
+S'Fibra'
+p99
+F30.0
+sS'Potassio'
+p100
+F0.0
+sS'Gorduras Totais'
+p101
+F0.0
+sS'Gordura Polinsaturada'
+p102
+F0.0
+sS'Zinco'
+p103
+F0.0
+sS'Fluor'
+p104
+F0.0
+sS'Calcio'
+p105
+F3201.0
+sS'Vitamina K'
+p106
+F0.0
+sS'Vitamina E'
+p107
+F0.0
+sS'Vitamina D'
+p108
+F0.0
+sS'Sodio'
+p109
+F0.0
+sS'Vitamina A'
+p110
+F0.0
+sS'Vitamina C'
+p111
+F0.0
+sS'Iodo'
+p112
+F0.0
+sS'Ferro'
+p113
+F490.0
+sS'Calorias'
+p114
+F33.0
+sS'Colesterol'
+p115
+F222.0
+sS'Acido Folico'
+p116
+F23.0
+sS'Vitamina B6'
+p117
+F0.0
+sS'Vitamina B1'
+p118
+F0.0
+sS'Vitamina B2'
+p119
+F0.0
+sS'Magnesio'
+p120
+F0.0
+sS'Fosforo'
+p121
+F0.0
+sS'Gordura Saturada'
+p122
+F0.0
+sS'Gordura Monoinsaturada'
+p123
+F0.0
+sS'Vitamina B12'
+p124
+F0.0
+sS'Proteinas'
+p125
+F230.0
+sS'Selenio'
+p126
+F0.0
+ssS'imagem'
+p127
+S'/home/patricia/workspace/Agenda/src/Imagens/x.png'
+p128
+sS'nome'
+p129
+g46
+(g47
+S'QString'
+p130
+(VManga
+p131
+tp132
+tp133
+Rp134
+sbasS'data'
+p135
+g46
+(g47
+S'QDate'
+p136
+(I2009
+I10
+I23
+tp137
+tp138
+Rp139
+sS'anotacoes'
+p140
+g46
+(g47
+S'QString'
+p141
+(V
+p142
+tp143
+tp144
+Rp145
+sS'peso'
+p146
+g46
+(g47
+S'QString'
+p147
+(g142
+tp148
+tp149
+Rp150
+sb.
