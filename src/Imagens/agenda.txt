@@ -1,0 +1,20 @@
+
+agenda
+- adicionar
+- modificar
+- remover
+- gerar grafico do dia
+
+estatisticas
+- peso
+- calorias
+- nutrientes
+
+lista alimentos
+- adicionar alimento
+- modificar alimento
+- remover alimento
+
+configurações
+- calorias necessárias
+- peso desejado
